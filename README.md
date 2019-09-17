@@ -1,30 +1,16 @@
 # Sample Camera App
-A simple camera app for Android that allows you to run ML predictions on the video input.
+[This project has moved](https://github.com/fritzlabs/fritz-android-tutorials/tree/master/CameraBoilerplateApp).
 
-Get Started:
-=============
+## Fritz AI
+Fritz AI helps you teach your applications how to see, hear, feel, think, and sense. Create ML-powered features in your mobile apps for both Android and iOS. Start with our ready-to-use feature APIs or connect and deploy your own custom models.
 
-1. Setup your Fritz account (https://fritz.ai/).
-2. Fork/Clone this repo and run it in Android Studios.
-3. Edit the AndroidManifest.xml andd add your API key. This is in the Fritz webapp under Project Settings > App > Show API Key.
-    ```
-    <?xml version="1.0" encoding="utf-8"?>
-    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="ai.fritz.camera">
-        <application ...>
-          <meta-data
-                      android:name="fritz_api_key"
-                      android:value="your app's api key" />
-        </application>
-    </manifest>
-    ...
-    ```
-4.Follow the documentation or a tutorial to add in specific Fritz feature or add your own custom model.
+[Sign up](https://app.fritz.ai/register) for an account on Fritz AI in order to get started with machine learning in your apps.
 
-* Object Detection: https://docs.fritz.ai/features/object-detection/about.html
-* Image Labeling: https://docs.fritz.ai/features/image-labeling/about.html
-* Style Transefer: https://docs.fritz.ai/features/style-transfer/about.html
+## Join the community
+[Heartbeat](https://heartbeat.fritz.ai/?utm_source=github&utm_campaign=fritz-models) is a community of developers interested in the intersection of mobile and machine learning. [Chat with us in Slack](https://join.slack.com/t/heartbeat-by-fritz/shared_invite/enQtMzY5OTM1MzgyODIzLTZhNTFjYmRiODU0NjZjNjJlOGRjYzI2OTIwY2M4YTBiNjM1ODU1ZmU3Y2Q2MmMzMmI2ZTIzZjQ1ZWI3NzBkZGU) and stay up to date on the latest mobile ML news with our [Newsletter](https://mobileml.us16.list-manage.com/subscribe?u=de53bead690affb8e9a21de8f&id=68acb5c0fd).
 
-Tutorials:
-============
-Style Transfer: https://heartbeat.fritz.ai/real-time-style-transfer-for-android-6a9d238dfdb5
+## Help
+For any questions or issues, you can:
+- Submit an issue on this repo
+- Go to our [Help Center](https://docs.fritz.ai/help-center/index.html)
+- Message us directly in [Slack](https://heartbeat-by-fritz.slack.com/join/shared_invite/enQtNTY5NDM2MTQwMTgwLTAyODE3MmQzZjU2NWE5MDNmYTgwM2E1MjU5Y2Y2NmI2YTlkMTMwZTAwYTAwMzQ5NzQ2NDBhZjhmYjU2YWY3OGU)
